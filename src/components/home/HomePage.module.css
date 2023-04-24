@@ -1,21 +1,35 @@
 .homePage{
-    background-image: url("https://images.unsplash.com/photo-1516528387618-afa90b13e000?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-image: url("https://media.istockphoto.com/id/962982970/photo/dense-forest-in-the-low-light.jpg?s=612x612&w=0&k=20&c=_2XGHjhHMmKz_PxHDF_v-xRKDUHtAWgHh62Z7xrPgjE=");
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: red;
-    width: 80%;
+     width: 80.6%;
     margin: 0 9.2rem;
-    height: 70vh;
+
+    height: 75vh; 
+  
+    
+     
 }
 
 .homePage .head{
-    color: white;
+    
+    
     font-weight: bold;
     font-size: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50vh  
+    height: 50vh;
+    text-align: center;
+    
+}
+
+.homePage .head h1{
+    color: rgba(255, 255, 255, 0.898);
+}
+
+.homePage .head h3{
+    color: white;
 }
 
 .homePage .foot{
@@ -23,13 +37,21 @@
     text-align: center;
 }
 
-@media(max-width:768px){
+@media(max-width:991px){
     .homePage{
-        width: 140%;
-    margin: 0 9.2rem;
-    height: 100vh;
+        width: 68.5%;
+    
+    height: 90vh;
     }
+}
 
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .homePage{
+        width: 182%;
+        margin: 0 0 0 0;
+    }
     .homePage .head{
         color: white;
         font-weight: bold;
@@ -47,3 +69,24 @@
     }
 }
 
+@media only screen and (min-device-width: 769px) and (max-device-width: 800px) {
+    .homePage{
+        width: 183%;
+        margin: 0 0 0 0;
+    }
+
+    .homePage .head{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (min-device-width: 801px) and (max-device-width: 999px) {
+    .homePage{
+        width: 64%;
+        margin: 0 9rem
+    }
+
+    .homePage .head{
+        font-size: 1.5rem;
+    }
+}

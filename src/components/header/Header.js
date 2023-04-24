@@ -32,13 +32,27 @@ const Header = () => {
         </span>
 
         <Link to={"/"}>Home</Link>
-        <a href="https://woxro.com/aboutus">About Us</a>
-        <a href="https://woxro.com/service">Services</a>
-        <a href="https://woxro.com/technology">Technology</a>
-        <a href="https://woxro.com/careers">Careers</a>
-        <a href="https://woxro.com/blog">Blogs</a>
-        <a href="https://woxro.com/ourworks">Our Works</a>
-        <a href="https://woxro.com/contactus">Contact us</a>
+        <a target={"_blank"} href="https://woxro.com/aboutus">
+          About Us
+        </a>
+        <a target={"_blank"} href="https://woxro.com/service">
+          Services
+        </a>
+        <a target={"_blank"} href="https://woxro.com/technology">
+          Technology
+        </a>
+        <a target={"_blank"} href="https://woxro.com/careers">
+          Careers
+        </a>
+        <a target={"_blank"} href="https://woxro.com/blog">
+          Blogs
+        </a>
+        <a target={"_blank"} href="https://woxro.com/ourworks">
+          Our Works
+        </a>
+        <a target={"_blank"} href="https://woxro.com/contactus">
+          Contact us
+        </a>
       </nav>
     </div>
   );

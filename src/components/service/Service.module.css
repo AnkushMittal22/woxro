@@ -76,9 +76,10 @@ background-color: white;
     background-color: white;
     }
 .service{
-    width: 170%;
+    width: 180%;
     margin: 0 0 0 0;
-    /* background-color: white */
+    padding: 0 0 0 0.5rem;
+    
 }
 
     .service footer{
