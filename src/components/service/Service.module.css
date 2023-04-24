@@ -89,3 +89,37 @@ background-color: white;
     
     }
 }
+
+@media only screen and (min-device-width: 801px) and (max-device-width: 850px){
+    .service{
+        width: 100%;
+        max-width: 40rem;
+        /* margin: 0 9rem */
+    }
+  }
+
+  
+@media only screen and (min-device-width: 851px) and (max-device-width: 999px){
+    .service{
+        width: 100%;
+        max-width: 50rem;
+        margin: 0 5rem;
+    }
+  }
+
+  @media only screen and (min-device-width: 1000px) and (max-device-width: 1430px){
+    .service{
+        width: 100%;
+        max-width: 60rem;
+        
+    }
+  }
+
+  @media(min-width: 1431px){
+    .service{
+        width: 100%;
+        max-width: 80rem;
+        margin: 0 9rem 0 6rem;
+    }
+  }
+

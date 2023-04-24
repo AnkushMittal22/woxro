@@ -6,7 +6,7 @@
 .main_header{
   overflow-x: hidden;
   
-  width: 81%;
+  width: 100%;
   margin: 0 9.2rem;
   
 
@@ -133,4 +133,43 @@
     margin: 0 -0.8rem;
 
    }
+}
+
+@media only screen and (min-device-width: 801px) and (max-device-width: 850px){
+  .main_header{
+      width: 100%;
+      max-width: 40rem;
+       /* max-width: 50rem; */
+      
+  }
+}
+
+@media only screen and (min-device-width: 851px) and (max-device-width: 999px){
+  .main_header{
+      width: 100%;
+      max-width: 50rem;
+      margin: 0 5rem;
+
+ 
+     
+  }
+
+   
+}
+
+@media only screen and (min-device-width: 1000px) and (max-device-width: 1430px){
+  .main_header{
+      width: 100%;
+      max-width: 60rem;
+     
+  }
+}
+
+
+@media(min-width: 1431px){
+  .main_header{
+      width: 100%;
+      max-width: 80rem;
+      margin: 0 9rem 0 6rem;
+  }
 }
